@@ -5,9 +5,9 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine("{0} наибольшее число", a);
+    Console.WriteLine($"a = {a}; b = {b} -> max = {a}");
 }
 else 
 {
-    Console.WriteLine("{0} наибольшее число", b);
+    Console.WriteLine($"a = {a}; b = {b} -> max = {b}");
 }
