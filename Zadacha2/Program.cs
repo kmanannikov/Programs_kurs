@@ -1,13 +1,13 @@
-﻿Console.Write("Введите число 1: ");
-int numA = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число 2: ");
-int numB = Convert.ToInt32(Console.ReadLine());
+﻿Console.Write("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-if (numA > numB)
+if (a > b)
 {
-    Console.WriteLine(numA);
+    Console.WriteLine("{0} наибольшее число", a);
 }
 else 
 {
-    Console.WriteLine(numB);
+    Console.WriteLine("{0} наибольшее число", b);
 }
