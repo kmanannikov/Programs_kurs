@@ -1,11 +1,11 @@
 ﻿Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if (a % 2 == 1)
+if (a % 2 == 0)
 {
-    Console.WriteLine($"{a} -> нет");
+    Console.WriteLine($"{a} -> да");
 }
 else
 {
-    Console.WriteLine($"{a} -> да");
+    Console.WriteLine($"{a} -> нет");
 }
