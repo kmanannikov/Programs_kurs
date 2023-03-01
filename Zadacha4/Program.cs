@@ -16,7 +16,6 @@ if (a > b)
         Console.WriteLine($"{a}, {b}, {c} -> {c}");
     }
 }
-
 else if (b > c)
 {
     Console.WriteLine($"{a}, {b}, {c} -> {b}");
