@@ -1,7 +1,7 @@
 ﻿Console.Clear();
-Console.WriteLine("введите позицию элемента в строке");
+Console.WriteLine("введите позицию элемента в строке массива");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите позицию элемента в столбце");
+Console.WriteLine("введите позицию элемента в столбце массива");
 int m = Convert.ToInt32(Console.ReadLine());
 int [,] numbers = new int [3,4];
 FillArrayRandomNumbers(numbers);
