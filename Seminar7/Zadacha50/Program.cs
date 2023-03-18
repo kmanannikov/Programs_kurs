@@ -1,18 +1,18 @@
 ﻿Console.Clear();
-Console.WriteLine("введите номер строки");
+Console.WriteLine("введите позицию элемента в строке");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите номер столбца");
+Console.WriteLine("введите позицию элемента в столбце");
 int m = Convert.ToInt32(Console.ReadLine());
-int [,] numbers = new int [10,10];
+int [,] numbers = new int [3,4];
 FillArrayRandomNumbers(numbers);
 
 if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
 {
-    Console.WriteLine("такого элемента нет");
+    Console.WriteLine($"Элемент с {n} позицией в строке и {m} позицией в столбце в массиве отсутствует");
 }
 else
 {
-    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n-1,m-1]}");
+    Console.WriteLine($"значение указанного элемента равно {numbers[n-1,m-1]}");
 }
 
 PrintArray(numbers);
