@@ -3,11 +3,6 @@
 int n = InputInt("Введите значение N: ");
 int m = 1;
 
-if (n < 1)
-{
-    Console.WriteLine("Введено неверное значение");
-}
-
 Console.Write($"N = {n} -> ");
 Console.WriteLine(NaturalNumber(n, m));
 
